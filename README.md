@@ -52,3 +52,39 @@ Esse potencial pode ser **medido, indexado e previsto** a partir de:
 
 ## 📂 Estrutura do Projeto
 
+
+
+
+---
+
+## 🚀 Roadmap
+
+- [x] Estrutura conceitual inicial (SparkUnit, PPA, Orbitais, SparkCore)  
+- [x] Definição das métricas SKS (análise aplicada)  
+- [x] Configuração PostgreSQL com GIN/TRGM + CIText  
+- [ ] API para ingestão e análise de peças (texto, imagem, vídeo)  
+- [ ] Painel visual de métricas (React/Electron)  
+- [ ] Integração com modelos de IA (análise multimodal e predição de engajamento)  
+
+---
+
+## 📖 Referenciais Teóricos
+
+- Semiótica de Peirce (diagramas existenciais, primeiridade, secundidade, terceiridade)  
+- Greimas (semiótica estrutural e isotopias)  
+- Psicologia da recepção (Hume, Santaella, Bergson)  
+- Estudos de CTR/CTA no marketing digital  
+- Conceito próprio: **PPA – Potencial Prévio de Ação**  
+
+---
+
+## 👥 Autoria e Colaboração
+
+- **Liandro J. Bulegon** – Criador do SparkScore e da metodologia  
+- Colaboradores e pesquisadores interessados em semiótica aplicada à performance digital  
+
+---
+
+## 📜 Licença
+
+Este projeto está licenciado sob a **MIT License** – veja o arquivo `LICENSE` para detalhes.
