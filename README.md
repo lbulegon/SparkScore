@@ -53,6 +53,73 @@ Esse potencial pode ser **medido, indexado e previsto** a partir de:
 ## 📂 Estrutura do Projeto
 
 
+# ⚡ SparkScore — Estrutura com PreCogs
+
+O SparkScore é um sistema de análise e previsão semiótica que organiza a recepção de peças em camadas.  
+Abaixo está a arquitetura completa, incluindo os **PreCogs**, responsáveis por antecipar cenários futuros de ação.
+
+---
+
+## 🔹 1. SparkUnits (PPA – Potencial Prévio de Ação)
+- Menores unidades de significação quantificável.  
+- Extraem sinais iniciais da peça (cores, formas, CTA, metáforas, microexpressões, etc.).  
+- Fornecem o **potencial de ação antes da ação**.
+
+---
+
+## 🔹 2. SparkCore
+- Núcleo processador.  
+- Organiza, normaliza e calcula índices (CTR antecipado, CTA potencial, intensidade emocional).  
+- Prepara a base de dados para projeções.
+
+---
+
+## 🔹 3. Orbitais
+- Camadas interpretativas (cognitiva, emocional, cultural).  
+- Ajustam os índices ao **contexto de recepção**.  
+- Exemplo: a mesma peça pode ter PPA alto em um grupo e baixo em outro.
+
+---
+
+## 🔹 4. PreCogs
+- **Módulo preditivo** inspirado em *Minority Report*.  
+- Roda simulações com os dados vindos do Core + Orbitais.  
+- Entrega uma **antecipação probabilística do ponto de ignição**:
+  - Quando ele pode ocorrer.  
+  - Qual a intensidade da faísca.  
+  - Quão provável é a ativação da ação.
+
+📌 **Saída dos PreCogs = Cenário de ignição projetado.**
+
+---
+
+## 🔹 5. Ponto de Ignição
+- **Evento real**: quando a peça gera de fato a ação no mundo.  
+- O sistema compara:
+  - O que os **PreCogs previram**.  
+  - O que **realmente aconteceu**.  
+- Essa comparação retroalimenta o sistema e calibra as métricas.
+
+---
+
+## 🔹 6. Irradiação Semiótica
+- A expansão do impacto depois do ponto de ignição.  
+- Como a ação se espalha, viraliza ou se multiplica.  
+- Mede alcance, ressonância e ecos culturais.
+
+---
+
+## 🔗 Fluxograma do Processo
+
+```mermaid
+flowchart TD
+    A[SparkUnits (PPA)] --> B[SparkCore]
+    B --> C[Orbitais]
+    C --> D[PreCogs]
+    D --> E[Ponto de Ignição]
+    E --> F[Irradiação Semiótica]
+    D -.->|Projeção| E
+
 
 
 ---
