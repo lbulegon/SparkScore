@@ -1,0 +1,37 @@
+openapi: 3.1.0
+info:
+  title: SparkScore API
+  version: 1.0.0
+paths:
+  /scores:predict:
+    post:
+      summary: Predição de scores para criativos
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+  /sparkunits:extract:
+    post:
+      summary: Extração de SparkUnits
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
