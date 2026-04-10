@@ -1,39 +1,19 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.pyc
-
-# Django
-*.sqlite3
-*.log
-staticfiles/
-media/
-
-# Virtualenv
 .venv/
 venv/
-ENV/
-
-# IDEs
-.vscode/
-.idea/
-*.swp
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Railway
+# artefacto npm acidental na pasta backend (projeto é Python)
+backend/node_modules/
+backend/package-lock.json
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
 .env
-
-# Misc
-*.bak
-*.tmp
-
-# Node
-node_modules/
-
-# Procfile
-Procfile
+.env.*
+!.env.example
+staticfiles/
+*.log
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
