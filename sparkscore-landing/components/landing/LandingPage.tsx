@@ -117,9 +117,12 @@ export default function LandingPage() {
         className="flex min-h-[100dvh] min-h-screen flex-col items-center justify-center px-4 py-12 text-center sm:px-6 sm:py-20"
       >
         <h1 className="max-w-4xl text-4xl font-bold leading-tight md:text-6xl md:leading-tight">
-          Certeza prévia sobre{" "}
+          Antecipe{" "}
           <span className="bg-gradient-to-r from-amber-300 to-violet-400 bg-clip-text text-transparent">
             impacto e recepção
+          </span>
+          <span className="mt-3 block text-2xl font-semibold leading-snug text-stone-300 md:text-4xl md:leading-tight">
+            antes de publicar
           </span>
         </h1>
 
@@ -334,7 +337,9 @@ export default function LandingPage() {
       </section>
 
       <section className="px-6 py-24 text-center">
-        <h2 className="mb-6 text-3xl font-bold md:text-4xl">Certainty Ahead — comece pelo PPA</h2>
+        <h2 className="mb-6 text-3xl font-bold md:text-4xl">
+          Comece pelo PPA — leitura antecipada, não suposição
+        </h2>
         <button
           type="button"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}

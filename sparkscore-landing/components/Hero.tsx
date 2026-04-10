@@ -17,7 +17,7 @@ export default function Hero() {
       >
         SparkScore —{" "}
         <span className="bg-gradient-to-r from-amber-200 to-violet-400 bg-clip-text text-transparent">
-          Certainty Ahead
+          leitura antecipada
         </span>
       </motion.h1>
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Tagline, descrição, comentário do maker e checklist para lançar o SparkScore no Product Hunt — PPA e análise semiótica.",
 };
 
-const TAGLINE_PRIMARY = "Certainty Ahead — meça o PPA antes da publicação";
+const TAGLINE_PRIMARY = "Leitura antecipada — meça o PPA antes de publicar";
 const TAGLINE_ALT = "Potencial prévio de ação para comunicação que precisa de impacto";
 
 const SHORT_DESC = `A maioria das ferramentas mede cliques depois do facto. O SparkScore antecipa o Potencial Prévio de Ação (PPA) — predisposição à ação antes da resposta consciente.
@@ -20,7 +20,7 @@ const MAKER_COMMENT = `Olá Product Hunt 👋
 
 Criei o SparkScore porque métricas tradicionais chegam tarde: quando já expuseste a peça e gastaste orçamento.
 
-O SparkScore parte de semiótica aplicada e psicologia da recepção: quantifica unidades mínimas de significação (SparkUnits), camadas interpretativas (Orbitais) e projeta o ponto de ignição (PreCogs) — o mantra é *Certainty Ahead*.
+O SparkScore parte de semiótica aplicada e psicologia da recepção: quantifica unidades mínimas de significação (SparkUnits), camadas interpretativas (Orbitais) e projeta o ponto de ignição (PreCogs) — antecipação com método, não promessa de certeza.
 
 Há uma demo técnica reproduzível na landing; com conta, desbloqueias API e histórico.
 
@@ -32,7 +32,7 @@ PPA — Potencial Prévio de Ação — antes do clique.
 
 SparkUnits · Orbitais · PreCogs
 
-Certainty Ahead
+Leitura antecipada
 
 [link]`;
 
@@ -119,7 +119,7 @@ export default function ProductHuntPage() {
           </h2>
           <ol className="mt-6 space-y-4">
             {[
-              { t: "Gancho (3s)", b: '"Certainty Ahead — o que acontece antes do clique."' },
+              { t: "Gancho (3s)", b: '"Antecipe impacto e recepção — antes de publicar."' },
               { t: "Demo (15s)", b: "Landing → demo → score / insight." },
               { t: "Insight (10s)", b: "PPA e Orbitais em linguagem acessível." },
               { t: "CTA (5s)", b: '"Experimentar na landing" + URL.' },

@@ -1,6 +1,6 @@
 # SparkScore SaaS (API + Landing + Railway)
 
-**SparkScore** é uma metodologia e plataforma de análise semiótica aplicada à comunicação: quantifica o **PPA** (Potencial Prévio de Ação), **SparkUnits**, **Orbitais** e projeções tipo **PreCogs** — mantra **Certainty Ahead**.
+**SparkScore** é uma metodologia e plataforma de análise semiótica aplicada à comunicação: quantifica o **PPA** (Potencial Prévio de Ação), **SparkUnits**, **Orbitais** e projeções tipo **PreCogs** — leitura antecipada da recepção e do impacto, com método (não “certeza” absoluta).
 
 Este repositório segue a **mesma estrutura operacional** do projeto SinapLint: API Django que orquestra chamadas HTTP ao motor no **Core_SinapUm** (endpoint interno SinapLint), mais frontend Next.js com proxy de autenticação e análises.
 
