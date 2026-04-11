@@ -181,7 +181,7 @@ export function AnalyzeRequestModal({
             <textarea
               id="modal-extra-json"
               rows={4}
-              placeholder='{"ficheiros": []}'
+              placeholder='{"arquivos": []}'
               value={extraJson}
               onChange={(e) => setExtraJson(e.target.value)}
               className="mt-1 w-full resize-y rounded-lg border border-gray-800 bg-black px-3 py-2 font-mono text-xs text-gray-300 outline-none ring-emerald-500/30 focus:ring-2"

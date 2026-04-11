@@ -167,7 +167,7 @@ export function LaunchChecklistClient() {
           ))}
         </ul>
         <p className="mt-6 text-sm text-gray-500">
-          Se tudo acima estiver alinhado com o produto: <strong className="text-gray-400">estás pronto para lançar</strong>.
+          Se tudo acima estiver alinhado com o produto: <strong className="text-gray-400">você está pronto para lançar</strong>.
           A parte difícil (produto + motor + SaaS) já está; agora é <span className="text-gray-400">percepção + distribuição</span>.
         </p>
       </section>

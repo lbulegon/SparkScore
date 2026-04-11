@@ -42,7 +42,7 @@ export default function Hero() {
           href={registerPath()}
           className="rounded-xl bg-gradient-to-r from-amber-600 to-amber-500 px-6 py-3 font-semibold text-stone-950 hover:from-amber-500 hover:to-amber-400"
         >
-          Obter acesso API
+          Obter acesso à API
         </Link>
 
         <a

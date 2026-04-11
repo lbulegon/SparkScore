@@ -14,7 +14,7 @@ const TAGLINE_ALT = "Potencial prévio de ação para comunicação que precisa 
 
 const SHORT_DESC = `A maioria das ferramentas mede cliques depois do facto. O SparkScore antecipa o Potencial Prévio de Ação (PPA) — predisposição à ação antes da resposta consciente.
 
-SparkUnits, Orbitais e PreCogs organizam a recepção simbólica da tua peça para alinhar mensagem, canal e cultura.`;
+SparkUnits, Orbitais e PreCogs organizam a recepção simbólica da sua peça para alinhar mensagem, canal e cultura.`;
 
 const MAKER_COMMENT = `Olá Product Hunt 👋
 
@@ -22,7 +22,7 @@ Criei o SparkScore porque métricas tradicionais chegam tarde: quando já expuse
 
 O SparkScore parte de semiótica aplicada e psicologia da recepção: quantifica unidades mínimas de significação (SparkUnits), camadas interpretativas (Orbitais) e projeta o ponto de ignição (PreCogs) — antecipação com método, não promessa de certeza.
 
-Há uma demo técnica reproduzível na landing; com conta, desbloqueias API e histórico.
+Há uma demo técnica reproduzível na landing; com conta, você desbloqueia API e histórico.
 
 Feedback bem-vindo — especialmente de marketing, criativos e equipas que precisam de linguagem comum entre dados e narrativa.`;
 

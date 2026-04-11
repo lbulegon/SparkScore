@@ -59,7 +59,7 @@ export default function LandingPage() {
       if (me?.api_key) {
         const pid = me.project_id;
         if (pid == null) {
-          setError("Sem project_id na conta. Contacte suporte ou use a demo sem login.");
+          setError("Sem project_id na conta. Entre em contato com o suporte ou use a demo sem login.");
           setLoading(false);
           return;
         }
@@ -159,7 +159,7 @@ export default function LandingPage() {
               onClick={analyze}
               className="min-h-[52px] w-full whitespace-nowrap rounded-lg bg-gradient-to-r from-amber-600 to-amber-500 px-5 py-4 text-sm font-semibold text-stone-950 hover:from-amber-500 hover:to-amber-400 disabled:opacity-50 sm:w-auto sm:px-6"
             >
-              {loading ? "A analisar…" : "Correr demo"}
+              {loading ? "Analisando…" : "Rodar demo"}
             </button>
           </div>
           <button
@@ -197,7 +197,7 @@ export default function LandingPage() {
               className="h-10 w-10 animate-spin rounded-full border-2 border-gray-700 border-t-amber-500"
               aria-hidden
             />
-            <span className="text-sm text-gray-500">A processar…</span>
+            <span className="text-sm text-gray-500">Processando…</span>
           </div>
         )}
 
@@ -255,7 +255,7 @@ export default function LandingPage() {
           <div>
             <h2 className="text-2xl font-bold">Experimente a demo, depois persista o que importa</h2>
             <p className="mt-2 text-gray-400">
-              Visitantes obtêm uma análise limitada na hora. Contas desbloqueiam histórico, API e fluxo SaaS
+              Visitantes recebem uma análise limitada na hora. Contas desbloqueiam histórico, API e fluxo SaaS
               completo.
             </p>
           </div>
@@ -265,7 +265,7 @@ export default function LandingPage() {
               onClick={() => document.getElementById("demo-analyze")?.scrollIntoView({ behavior: "smooth" })}
               className="rounded-lg border border-gray-600 px-5 py-3 text-sm font-semibold hover:bg-gray-900"
             >
-              Correr demo
+              Rodar demo
             </button>
             <Link
               href={registerPath()}
@@ -294,7 +294,7 @@ export default function LandingPage() {
             <h3 className="text-lg font-bold">SaaS</h3>
             <p className="mt-2 text-3xl font-bold text-white">API + painel</p>
             <p className="mt-4 text-sm text-gray-400">
-              Chave de API, análises guardadas, histórico e integração com o teu fluxo de entrega.
+              Chave de API, análises guardadas, histórico e integração com o seu fluxo de entrega.
             </p>
             <ul className="mt-6 space-y-2 text-left text-sm text-gray-300">
               <li>• Análises persistidas</li>
@@ -317,7 +317,7 @@ export default function LandingPage() {
           {[
             {
               q: "Preciso de conta para experimentar?",
-              a: "Não. Cole um URL de repositório público e corra a demo. Crie conta quando quiser histórico e API.",
+              a: "Não. Cole um URL de repositório público e rode a demo. Crie uma conta quando quiser histórico e API.",
             },
             {
               q: "O SparkScore substitui o Google Analytics?",

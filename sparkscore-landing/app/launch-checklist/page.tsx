@@ -26,8 +26,8 @@ export default function LaunchChecklistPage() {
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-red-500">Launch</p>
           <h1 className="mt-2 text-3xl font-bold tracking-tight md:text-4xl">Checklist final — SparkScore</h1>
           <p className="mt-3 text-gray-400">
-            Use esta página antes do lançamento. Marca itens à medida que validas — o progresso fica guardado
-            neste browser.
+            Use esta página antes do lançamento. Marque os itens conforme for validando — o progresso fica salvo
+            neste navegador.
           </p>
         </header>
 

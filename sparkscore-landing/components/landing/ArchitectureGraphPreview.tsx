@@ -13,7 +13,9 @@ export function ArchitectureGraphPreview({ score }: { score: number | null }) {
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-400/90">
             Orbitais &amp; irradiação
           </p>
-          <h3 className="text-2xl font-bold text-white md:text-3xl">Ver o sistema simbólico, não só o ficheiro</h3>
+          <h3 className="text-2xl font-bold text-white md:text-3xl">
+            Ver o sistema simbólico, não só o arquivo
+          </h3>
           <p className="max-w-md text-sm text-gray-400">
             O SparkScore organiza sinais em camadas (cognitiva, afetiva, cultural) para que o PPA e o risco de
             desalinhamento apareçam antes da veiculação.
