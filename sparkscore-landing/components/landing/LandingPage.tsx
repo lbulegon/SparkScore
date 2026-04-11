@@ -240,9 +240,9 @@ export default function LandingPage() {
       <section className="mx-auto max-w-4xl px-6 py-20 text-center">
         <h2 className="mb-6 text-3xl font-bold md:text-4xl">Isto não é só analytics</h2>
         <p className="text-lg text-gray-400">
-          Dashboards contam cliques depois do facto. O SparkScore lê{" "}
-          <strong className="text-stone-300">significação, predisposição e risco estrutural</strong> — a
-          camada onde a cultura e a percepção decidem.
+          Ele conta cliques depois do fato. O SparkScore lê{" "}
+          <strong className="text-stone-300">significação, predisposição e risco estrutural</strong> antes de
+          veicular, economizando montanhas de dinheiro ao analisar a camada onde a cultura e a percepção decidem.
         </p>
       </section>
 
