@@ -119,7 +119,7 @@ export default function LandingPage() {
         <h1 className="max-w-4xl text-4xl font-bold leading-tight md:text-6xl md:leading-tight">
           Antecipe{" "}
           <span className="bg-gradient-to-r from-amber-300 to-violet-400 bg-clip-text text-transparent">
-            o impacto e a recepção
+            o impacto da recepção
           </span>
           <span className="mt-3 block text-2xl font-semibold leading-snug text-stone-300 md:text-4xl md:leading-tight">
             antes de publicar
