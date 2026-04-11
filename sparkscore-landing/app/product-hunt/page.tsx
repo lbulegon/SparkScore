@@ -119,7 +119,7 @@ export default function ProductHuntPage() {
           </h2>
           <ol className="mt-6 space-y-4">
             {[
-              { t: "Gancho (3s)", b: '"Antecipe impacto e recepção — antes de publicar."' },
+              { t: "Gancho (3s)", b: '"Antecipe o impacto e a recepção — antes de publicar."' },
               { t: "Demo (15s)", b: "Landing → demo → score / insight." },
               { t: "Insight (10s)", b: "PPA e Orbitais em linguagem acessível." },
               { t: "CTA (5s)", b: '"Experimentar na landing" + URL.' },
